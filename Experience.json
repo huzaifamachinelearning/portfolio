@@ -1,0 +1,41 @@
+[
+  {
+    "position": "Senior Software Engineer",
+    "companyName": "Systems Limited",
+    "duration": "Jan 2022-Present",
+    "location": "Multan, Pakistan",
+    "description": "Leading a team of 5 engineers in developing scalable web applications using React,TypeScript,and Node.js. Implemented microservices architecture that improved system performance by 40%.",
+    "achievements": [
+      "Architected and deployed a real-time analytics dashboard serving 100K+ users",
+      "Reduced application load time by 60% through code optimization",
+      "Mentored junior developers and conducted technical interviews"
+    ],
+    "isCurrent": true
+  },
+  {
+    "position": "Software Engineer",
+    "companyName": "Sparko Sol",
+    "duration": "Mar 2019-Dec 2021",
+    "location": "Multan, Pakistan",
+    "description": "Developed and maintained multiple client-facing web applications. Collaborated with cross-functional teams to deliver high-quality software solutions.",
+    "achievements": [
+      "Built a customer portal that increased user engagement by 35%",
+      "Implemented automated testing reducing bugs in production by 50%",
+      "Contributed to open-source projects and internal tooling"
+    ],
+    "isCurrent": false
+  },
+  {
+    "position": "Junior Developer",
+    "companyName": "StartUp Ventures",
+    "duration": "Jun 2017 - Feb 2019",
+    "location": "Multan, Pakistan",
+    "description": "Started career building responsive web interfaces and RESTful APIs. Gained experience in full-stack development and agile methodologies.",
+    "achievements": [
+      "Developed key features for the company's main product",
+      "Participated in daily standups and sprint planning",
+      "Learned modern web development best practices"
+    ],
+    "isCurrent": false
+  }
+]
