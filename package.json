@@ -1,4 +1,4 @@
-{ "homepage": "https://huzaifamachinelearning.github.io/portfolio",
+{ "homepage": "https://huzaifamachinelearning.github.io/portfolio/",
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -6,11 +6,11 @@
   
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
    },
   "dependencies": {
     "@chakra-ui/react": "^3.29.0",
