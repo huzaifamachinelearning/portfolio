@@ -7,27 +7,27 @@ export default function Header()  {
   const MenuItems = [ 
      { 
       label: "Home", 
-      link: "/", 
+      link: "#/", 
     },
-    { 
-      label: "Education", 
-      link: "/Education", 
-    }, 
- 
-    { 
-      label: "Experience", 
-      link: "/Experience", 
-    }, 
-    { 
-      label: "Projects", 
-      link: "/Projects", 
-    }, 
-    {
-        label:"Contact",
-        link:"/Contact"
-    }
-   
-  ]; 
+     { 
+       label: "Education", 
+       link: "#/Education", 
+     }, 
+  
+     { 
+       label: "Experience", 
+       link: "#/Experience", 
+     }, 
+     { 
+       label: "Projects", 
+       link: "#/Projects", 
+     }, 
+     {
+         label:"Contact",
+         link:"#/Contact"
+     }
+    
+   ];
  
   return ( 
     <Flex 
