@@ -1,4 +1,6 @@
-import { Flex, Image, Link,Heading,Avatar,Box } from "@chakra-ui/react"; 
+import { Flex, Image,Heading,Link as ChakraLink,Avatar,Box } from "@chakra-ui/react"; 
+import {Link as RouterLink} from 'react-router-dom'
+
 import { map } from "lodash"; 
 import { v4 as uuidv4 } from "uuid"; 
 
@@ -7,24 +9,24 @@ export default function Header()  {
   const MenuItems = [ 
      { 
       label: "Home", 
-      link: "#/", 
+      link: "/", 
     },
      { 
        label: "Education", 
-       link: "#/Education", 
+       link: "/Education", 
      }, 
   
      { 
        label: "Experience", 
-       link: "#/Experience", 
+       link: "/Experience", 
      }, 
      { 
        label: "Projects", 
-       link: "#/Projects", 
+       link: "/Projects", 
      }, 
      {
          label:"Contact",
-         link:"#/Contact"
+         link:"/Contact"
      }
     
    ];
@@ -65,19 +67,19 @@ export default function Header()  {
         
         {map(MenuItems, (nav) => { 
           return ( 
-            <Link 
-              key={uuidv4()} 
-              fontFamily="roboto" 
-              fontWeight="500"
-              fontSize={25} 
-              color="blue.600"
-              _hover={{ color: "gray.500" }} 
-              _dark={{color:"blue.400"}}
-
-              href={nav?.link || "#"} 
-            > 
-              {nav?.label} 
- </Link> 
+  <ChakraLink
+  as={RouterLink}
+  key={nav.link}
+  to={nav.link}
+  fontFamily="roboto"
+  fontWeight="500"
+  fontSize={25}
+  color="blue.600"
+  _hover={{ color: "gray.500" }}
+  _dark={{ color: "blue.400" }}
+>
+  {nav.label}
+</ChakraLink>
           ); 
         })} 
       </Flex> 

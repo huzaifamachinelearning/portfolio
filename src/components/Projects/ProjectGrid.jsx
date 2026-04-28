@@ -14,7 +14,7 @@ const [data, setData] = useState([]);
  
       try { 
        
-        const response = await fetch("/Projects.json"); 
+        const response = await fetch(import.meta.env.BASE_URL+"/Projects.json"); 
  
         if (!response.ok) { 
           throw new Error(`HTTP error! status: ${response.status}`); 

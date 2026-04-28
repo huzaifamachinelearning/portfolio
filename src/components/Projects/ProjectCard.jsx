@@ -16,7 +16,7 @@ size="lg"
         >
           <Card.Header h="40%" p={0}>
       <Image
-            src={image}
+            src={import.meta.env.BASE_URL+"/"+image}
             alt={"error"}
             h="100%"
            borderTopRadius={15}

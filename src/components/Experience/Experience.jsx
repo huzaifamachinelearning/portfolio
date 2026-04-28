@@ -17,7 +17,7 @@ export default function Experience(){
  
       try { 
         
-        const response = await fetch("/Experience.json"); 
+        const response = await fetch(import.meta.env.BASE_URL + "/Experience.json"); 
  
         if (!response.ok) { 
           throw new Error(` error! status: ${response.status}`); 

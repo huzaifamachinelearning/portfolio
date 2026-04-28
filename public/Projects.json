@@ -1,20 +1,20 @@
 [
   {
-    "image": "../src/assets/image1.png",
+    "image": "images/image1.png",
     "name": "Hotel Reservation System",
     "overview": "A fourth semester project mainly focusing on database design with minimal front end",
     "technologies": ["oracle sql developer", "java", "intellij idea"],
     "url": "https://github.com/huzaifamachinelearning/hotel-reservation-system"
   },
   {
-    "image": "../src/assets/image2.jpg",
+    "image": "images/image2.jpg",
     "name": "Front end Projects",
     "overview": "These are my solutions to two front end mentor challeges. One is a social links profile, the other is a testimonial grid",
     "technologies": ["html", "css"],
     "url": "https://github.com/huzaifamachinelearning/html-css"
   },
   {
-    "image": "../src/assets/image3.webp",
+    "image": "images/image3.webp",
     "name": "Percolation Modeling",
     "overview": "Modeling percolation using the weighted quick union data type and running trials to determine the value of threshold probability p",
     "technologies": ["quick union", "java", "intellij idea"],
