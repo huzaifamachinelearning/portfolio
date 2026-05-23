@@ -1,6 +1,6 @@
 [
   {
-    "position": "Senior Software Engineer",
+    "position": "Senior Software Engineer(dummy)",
     "companyName": "Systems Limited",
     "duration": "Jan 2022-Present",
     "location": "Multan, Pakistan",
@@ -13,7 +13,7 @@
     "isCurrent": true
   },
   {
-    "position": "Software Engineer",
+    "position": "Software Engineer(dummy)",
     "companyName": "Sparko Sol",
     "duration": "Mar 2019-Dec 2021",
     "location": "Multan, Pakistan",
@@ -26,7 +26,7 @@
     "isCurrent": false
   },
   {
-    "position": "Junior Developer",
+    "position": "Junior Developer(dummy)",
     "companyName": "StartUp Ventures",
     "duration": "Jun 2017 - Feb 2019",
     "location": "Multan, Pakistan",

@@ -1,8 +1,9 @@
 {
     "UniversityEducation":{"institute": "NFC IET",
-  "degree": "Bachelor of Science in Computer Science (ongoing)", "duration":"2023-Present","cgpa": 3.96
+  "degree": "Bachelor of Science in Computer Science (ongoing)", "duration":"2023-Present","cgpa": 3.95
   },
   "Semesters":[ 
+    {"semester":5,"session":"Fall 2025","subjects":"Artificial Intelligence, Computer Networks, Web Technologies, Software Engineering","gpa":3.88},
     {"semester":4,"session":"Spring 2025","subjects":"Database,Operating System, Theory of Automata","gpa":3.91},
     {"semester":3,"session":"Fall 2024","subjects":"COAL,Data Structure,Information Security","gpa":3.98},
     {"semester":2,"session":"Spring 2024","subjects":"Object Oriented Programming, Digital Logic Design","gpa":4},

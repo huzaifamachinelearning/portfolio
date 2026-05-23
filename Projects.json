@@ -1,5 +1,42 @@
 [
   {
+    "image": "images/quran_image_3.png",
+    "name": "Quran App",
+    "overview": "A Quran App  supporting mushaf reading, surah translation , ayah by ayah translation,word by word translation, tafsir and grammatical analysis of words and ayahs",
+    "technologies": ["flutter", "node js", "mongodb"],
+    "url": "https://github.com/huzaifamachinelearning/quran-app"
+  },
+  {
+    "image": "images/ai-tools.webp",
+    "name": "AI-tools Aggregator",
+    "overview": "This is an ai tools aggregator website. It allows the functionality to search AI tools based on categories and prices offering detailed information about each tool.",
+    "technologies": ["react", "Chakra UI", "mongodb"],
+    "url": "https://github.com/huzaifamachinelearning/ai-verse/tree/main"
+  },
+
+    {
+    "image": "images/image3.webp",
+    "name": "Percolation Modeling",
+    "overview": "Modeling percolation using the weighted quick union data type and running trials to determine the value of threshold probability p",
+    "technologies": ["quick union", "java", "intellij idea"],
+    "url": "https://github.com/huzaifamachinelearning/percolation"
+  },
+  {
+    "image": "images/ai_research_agent.jpg",
+    "name": "Deep Research agent",
+    "overview": "A production-ready multi-agent autonomous research system built with LangGraph and LangChain. Four specialized agents collaborate to conduct comprehensive research on any topic, generating detailed citation-backed reports with credibility scoring and quality metrics.",
+    "technologies": ["Langraph", "Chainlit"],
+    "url": "https://github.com/huzaifamachinelearning/deep-research-agent"
+  },
+  {
+    "image": "images/fake_news_classifier.jpg",
+    "name": "Fake News Classification",
+    "overview": "This project focuses on classifying news articles into two categories: fake news and true news, using various machine learning models and text vectorization techniques. The goal is to build a robust text classification model that can accurately distinguish between fake and true news.",
+    "technologies": ["pandas", "numpy", "sklearn","matplotlib","nltk"],
+    "url": "https://github.com/huzaifamachinelearning/fake-news-detection"
+  },
+  
+  {
     "image": "images/image1.png",
     "name": "Hotel Reservation System",
     "overview": "A fourth semester project mainly focusing on database design with minimal front end",
@@ -12,12 +49,10 @@
     "overview": "These are my solutions to two front end mentor challeges. One is a social links profile, the other is a testimonial grid",
     "technologies": ["html", "css"],
     "url": "https://github.com/huzaifamachinelearning/html-css"
-  },
-  {
-    "image": "images/image3.webp",
-    "name": "Percolation Modeling",
-    "overview": "Modeling percolation using the weighted quick union data type and running trials to determine the value of threshold probability p",
-    "technologies": ["quick union", "java", "intellij idea"],
-    "url": "https://github.com/huzaifamachinelearning/percolation"
   }
+
+  
+   
+  
+  
 ]
