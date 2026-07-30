@@ -21,18 +21,12 @@
     "technologies": ["quick union", "java", "intellij idea"],
     "url": "https://github.com/huzaifamachinelearning/percolation"
   },
+  
   {
-    "image": "images/ai_research_agent.jpg",
-    "name": "Deep Research agent",
-    "overview": "A production-ready multi-agent autonomous research system built with LangGraph and LangChain. Four specialized agents collaborate to conduct comprehensive research on any topic, generating detailed citation-backed reports with credibility scoring and quality metrics.",
-    "technologies": ["Langraph", "Chainlit"],
-    "url": "https://github.com/huzaifamachinelearning/deep-research-agent"
-  },
-  {
-    "image": "images/fake_news_classifier.jpg",
-    "name": "Fake News Classification",
-    "overview": "This project focuses on classifying news articles into two categories: fake news and true news, using various machine learning models and text vectorization techniques. The goal is to build a robust text classification model that can accurately distinguish between fake and true news.",
-    "technologies": ["pandas", "numpy", "sklearn","matplotlib","nltk"],
+    "image": "images/housing_prices.jpg",
+    "name": "Housing Price Analysis",
+    "overview": "It is an end to end machine learning pipeline to predict housing prices using the California housing dataset. Several Models were tried and fine tuned to get the best results",
+    "technologies": ["pandas", "numpy", "sklearn","matplotlib"],
     "url": "https://github.com/huzaifamachinelearning/fake-news-detection"
   },
   
